@@ -81,7 +81,7 @@ const TYPED_LINES = [
   "...",
   "> today is your birthday",
   "...",
-  "> so i made made this computer program",
+  "> so i made this computer program",
   "...",
   "٩(◕‿◕)۶ ٩(◕‿◕)۶ ٩(◕‿◕)۶"
 ];
