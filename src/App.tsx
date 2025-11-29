@@ -77,11 +77,11 @@ const BACKGROUND_FADE_START = Math.max(
 );
 
 const TYPED_LINES = [
-  "> tina",
+  "> Gabbie",
   "...",
   "> today is your birthday",
   "...",
-  "> so i made you this computer program",
+  "> so i made made this computer program",
   "...",
   "٩(◕‿◕)۶ ٩(◕‿◕)۶ ٩(◕‿◕)۶"
 ];
@@ -266,25 +266,25 @@ function AnimatedScene({
       <group ref={tableGroup}>
         <Table />
         <PictureFrame
-          image="/frame2.jpg"
+          image="src/pic/1.jpg"
           position={[0, 0.735, 3]}
           rotation={[0, 5.6, 0]}
           scale={0.75}
         />
         <PictureFrame
-          image="/frame3.jpg"
+          image="src/pic/2.jpg"
           position={[0, 0.735, -3]}
           rotation={[0, 4.0, 0]}
           scale={0.75}
         />
         <PictureFrame
-          image="/frame4.jpg"
+          image="src/pic/3.jpg"
           position={[-1.5, 0.735, 2.5]}
           rotation={[0, 5.4, 0]}
           scale={0.75}
         />
         <PictureFrame
-          image="/frame1.jpg"
+          image="src/pic/4.jpg"
           position={[-1.5, 0.735, -2.5]}
           rotation={[0, 4.2, 0]}
           scale={0.75}
