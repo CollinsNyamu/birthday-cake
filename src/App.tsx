@@ -283,12 +283,6 @@ function AnimatedScene({
           rotation={[0, 5.4, 0]}
           scale={0.75}
         />
-        <PictureFrame
-          image="src/pic/4.jpg"
-          position={[-1.5, 0.735, -2.5]}
-          rotation={[0, 4.2, 0]}
-          scale={0.75}
-        />
         {cards.map((card) => (
           <BirthdayCard
             key={card.id}
